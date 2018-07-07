@@ -51,16 +51,16 @@
 	font-weight: 300;
 }
 
-@media (min-width: 2265px) {
+@media (min-width: 2201px) {
 #homePageImage{margin-top:12%;}
 #navBar{font-size: 100%}
 #brandName{font-size: 150%}
-#firstFeaturesRow{margin-top: -400px;}
+#firstFeaturesRow{margin-top: -300px;}
 #forkIconEnabledForTablet{display: none;}
 }
 
 
-@media (min-width: 1200px) and (max-width: 2264px) {
+@media (min-width: 1200px) and (max-width: 2200px) {
 #homePageImage{margin-top:12%;}
 #navBar{font-size: 100%}
 #brandName{font-size: 150%}
@@ -93,7 +93,6 @@
 .homePageContentVisibilityForBigResolutio{display: none;}
 .featuresContentRows {margin-top: 20px;}
 #secondFeaturesRow{margin-top: 220px;}
-.featuresIconsSize{width: 30px;}
 #forkIconEnabledForTablet{display: none;}
 }
 @media (max-width: 575px) and (min-width: 490px){
@@ -116,6 +115,8 @@
 .firstPageContentText{font-size: 1rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
 .featuresContentRows {margin-top: 85px; }
-#secondFeaturesRow{margin-top: 420px; }
 #forkIconEnabledForTablet{display: none;}
+.featuresIconsSize{width: 40px;}
+.featuresContentText{font-size: 0.7rem;}
+#databaseIconMargin{margin-top: -150px;}
 }
