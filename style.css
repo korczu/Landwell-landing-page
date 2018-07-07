@@ -1,28 +1,84 @@
 #background {
 	background-image: url('images/background.png');
-	height: 980px;
-	margin-top: 
+	height: auto; 
+	max-width:1923;
 }
-
-.homepage{
+/*First page styles */
+.navBarRow{
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
 	color: white;
+	height:80px;
 }
-#menuCol{
+#navBar{
 	font-size: 70%;
 	margin-top: 25px;
 }
-#brandNameCol{
+#brandName{
 	font-size: 130%;
 	margin-top: 20px;
 }
-#phoneCol{
-	margin-top: 166%;
-	margin-bottom:-100px;
-	max-width: 100%;
-    height: auto
+
+.firstPageContentHeader{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size:2.5em;
+}
+.firstPageContentText{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 1.4em;
+}
+.homePageContentForSmallResolution{
+	height: 300px;
+}
+.buttonHover:hover {
+	cursor: pointer;
+}
+@media (min-width: 1200px) {
+#homePageImage{margin-top:12%;}
+#navBar{font-size: 100%}
+#brandName{font-size: 150%}
+}
+@media (max-width: 1199px) and (min-width: 992px){
+#homePageImage{margin-top:15%;}
+#navBar{font-size: 80%}
+#brandName{font-size: 140%}
+.firstPageContentHeader{font-size: 2.3rem; margin-left:100px}
+.firstPageContentText{font-size: 1.2rem; margin-left:100px}
+.downloadButton{margin-left:100px;}
+}
+@media (max-width: 991px) and (min-width: 768px){
+#homePageImage{margin-top:27%;}
+#homePageImageSize{width: 150%;}
+.firstPageContentHeader{font-size: 1.7rem; margin-left:130px}
+.firstPageContentText{font-size: 1rem; margin-left:130px}
+.downloadButton{margin-left:130px;}
+}
+@media (max-width: 767px) and (min-width: 576px){
+#homePageImage{ text-align:center ;margin-top: 13%;}
+#homePageImageSize{width: 60%;}
+.firstPageContentHeader{font-size: 1.9rem; margin-top: 50px}
+.firstPageContentText{font-size: 1.2rem;}
+.homePageContentVisibilityForBigResolutio{display: none;}
+}
+@media (max-width: 575px) and (min-width: 490px){
+#homePageImage{ text-align:center ;margin-top: 79px;}
+#homePageImageSize{width: 300px;}
+#navBar{margin-top: -38px;}
+.firstPageContentHeader{font-size: 1.3rem; margin-top: 50px}
+.firstPageContentText{font-size: 1rem;}
+.homePageContentVisibilityForBigResolutio{display: none;}
+.downloadButton{width: 100px;}
 }
 
-@media (min-width: 1140px) and (min-width: 1012px) {
-#firstPhoneImage{ margin-top:12%;}
+@media (max-width: 489px) {
+#homePageImage{ text-align:center;margin-top:140px;}
+#homePageImageSize{width: 265px;}
+#navBar{padding: 0px; font-size: 10px}
+.firstPageContentHeader{font-size: 1.3rem; margin-top: 80px}
+.firstPageContentText{font-size: 1rem;}
+.homePageContentVisibilityForBigResolutio{display: none;}
 }
