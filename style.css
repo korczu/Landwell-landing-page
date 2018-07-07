@@ -107,7 +107,7 @@
 #forkIconEnabledForTablet{display: none;}
 }
 
-@media (max-width: 489px) {
+@media (min-width: 319px) and (max-width: 489px) {
 #homePageImage{ text-align:center;margin-top:140px;}
 #homePageImageSize{width: 265px;}
 #navBar{padding: 0px; font-size: 10px}
@@ -118,5 +118,20 @@
 #forkIconEnabledForTablet{display: none;}
 .featuresIconsSize{width: 40px;}
 .featuresContentText{font-size: 0.7rem;}
+#secondFeaturesRow{margin-top: 250px;}
 #databaseIconMargin{margin-top: -150px;}
+}
+
+@media (max-width: 320px) {
+#homePageImage{ text-align:center;margin-top:140px;}
+#homePageImageSize{max-width:100%}
+#navBar{padding: 0px; font-size: 9px; margin-left: -10px;}
+.firstPageContentHeader{font-size: 1.3rem; margin-top: 80px}
+.firstPageContentText{font-size: 1rem;}
+.homePageContentVisibilityForBigResolutio{display: none;}
+.featuresContentRows {margin-top: 75px; }
+#forkIconEnabledForTablet{display: none;}
+.featuresIconsSize{width: 30px;}
+.featuresContentText{font-size: 0.7rem;}
+#secondFeaturesRow{margin-top: 300px;}
 }
