@@ -37,10 +37,34 @@
 .buttonHover:hover {
 	cursor: pointer;
 }
-@media (min-width: 1200px) {
+.featuresContentRows {
+	width:100%; 
+	height:50%;
+}
+.featuresContentHeaders{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+.featuresContentText{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+@media (min-width: 2265px) {
 #homePageImage{margin-top:12%;}
 #navBar{font-size: 100%}
 #brandName{font-size: 150%}
+#firstFeaturesRow{margin-top: -400px;}
+#forkIconEnabledForTablet{display: none;}
+}
+
+
+@media (min-width: 1200px) and (max-width: 2264px) {
+#homePageImage{margin-top:12%;}
+#navBar{font-size: 100%}
+#brandName{font-size: 150%}
+#forkIconEnabledForTablet{display: none;}
 }
 @media (max-width: 1199px) and (min-width: 992px){
 #homePageImage{margin-top:15%;}
@@ -49,6 +73,7 @@
 .firstPageContentHeader{font-size: 2.3rem; margin-left:100px}
 .firstPageContentText{font-size: 1.2rem; margin-left:100px}
 .downloadButton{margin-left:100px;}
+#forkIconEnabledForTablet{display: none;}
 }
 @media (max-width: 991px) and (min-width: 768px){
 #homePageImage{margin-top:27%;}
@@ -56,6 +81,9 @@
 .firstPageContentHeader{font-size: 1.7rem; margin-left:130px}
 .firstPageContentText{font-size: 1rem; margin-left:130px}
 .downloadButton{margin-left:130px;}
+.featuresContentHeaders{font-size: 0.9rem;}
+.featuresContentText{font-size: 0.8rem}
+#forkIconDisabledForTablets{display: none;}
 }
 @media (max-width: 767px) and (min-width: 576px){
 #homePageImage{ text-align:center ;margin-top: 13%;}
@@ -63,6 +91,10 @@
 .firstPageContentHeader{font-size: 1.9rem; margin-top: 50px}
 .firstPageContentText{font-size: 1.2rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
+.featuresContentRows {margin-top: 20px;}
+#secondFeaturesRow{margin-top: 220px;}
+.featuresIconsSize{width: 30px;}
+#forkIconEnabledForTablet{display: none;}
 }
 @media (max-width: 575px) and (min-width: 490px){
 #homePageImage{ text-align:center ;margin-top: 79px;}
@@ -72,6 +104,8 @@
 .firstPageContentText{font-size: 1rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
 .downloadButton{width: 100px;}
+.featuresContentRows {margin-top: 20px;}
+#forkIconEnabledForTablet{display: none;}
 }
 
 @media (max-width: 489px) {
@@ -81,4 +115,7 @@
 .firstPageContentHeader{font-size: 1.3rem; margin-top: 80px}
 .firstPageContentText{font-size: 1rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
+.featuresContentRows {margin-top: 85px; }
+#secondFeaturesRow{margin-top: 420px; }
+#forkIconEnabledForTablet{display: none;}
 }
