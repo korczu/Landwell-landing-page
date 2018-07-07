@@ -65,6 +65,7 @@
 #navBar{font-size: 100%}
 #brandName{font-size: 150%}
 #forkIconEnabledForTablet{display: none;}
+.featuresContentRows {margin-top: 140px; padding: -50px;}
 }
 @media (max-width: 1201px) and (min-width: 992px){
 #homePageImage{margin-top:15%;}
@@ -133,7 +134,7 @@
 #databaseIconMargin{margin-top: -150px;}
 }
 
-@media (min-width: 319px) and (max-width: 489px) {
+@media (min-width: 316px) and (max-width: 489px) {
 #homePageImage{ text-align:center;margin-top:140px;}
 #homePageImageSize{width: 265px;}
 #navBar{padding: 0px; font-size: 10px}
@@ -148,7 +149,7 @@
 #databaseIconMargin{margin-top: -150px;}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 315px) {
 #homePageImage{ text-align:center;margin-top:140px;}
 #homePageImageSize{max-width:100%}
 #navBar{padding: 0px; font-size: 9px; margin-left: -10px;}
