@@ -1,0 +1,28 @@
+#background {
+	background-image: url('images/background.png');
+	height: 980px;
+	margin-top: 
+}
+
+.homepage{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+#menuCol{
+	font-size: 70%;
+	margin-top: 25px;
+}
+#brandNameCol{
+	font-size: 130%;
+	margin-top: 20px;
+}
+#phoneCol{
+	margin-top: 166%;
+	margin-bottom:-100px;
+	max-width: 100%;
+    height: auto
+}
+
+@media (min-width: 1140px) and (min-width: 1012px) {
+#firstPhoneImage{ margin-top:12%;}
+}
