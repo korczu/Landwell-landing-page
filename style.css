@@ -60,13 +60,13 @@
 }
 
 
-@media (min-width: 1200px) and (max-width: 2200px) {
+@media (min-width: 1202px) and (max-width: 2200px) {
 #homePageImage{margin-top:12%;}
 #navBar{font-size: 100%}
 #brandName{font-size: 150%}
 #forkIconEnabledForTablet{display: none;}
 }
-@media (max-width: 1199px) and (min-width: 992px){
+@media (max-width: 1201px) and (min-width: 992px){
 #homePageImage{margin-top:15%;}
 #navBar{font-size: 80%}
 #brandName{font-size: 140%}
@@ -74,6 +74,8 @@
 .firstPageContentText{font-size: 1.2rem; margin-left:100px}
 .downloadButton{margin-left:100px;}
 #forkIconEnabledForTablet{display: none;}
+.featuresContentRows {margin-top: 140px; padding: -50px;}
+.featuresContentHeaders {font-size: 1.1rem;}
 }
 @media (max-width: 991px) and (min-width: 768px){
 #homePageImage{margin-top:27%;}
@@ -84,6 +86,7 @@
 .featuresContentHeaders{font-size: 0.9rem;}
 .featuresContentText{font-size: 0.8rem}
 #forkIconDisabledForTablets{display: none;}
+.featuresContentRows {margin-top: 140px;}
 }
 @media (max-width: 767px) and (min-width: 576px){
 #homePageImage{ text-align:center ;margin-top: 13%;}
@@ -91,11 +94,14 @@
 .firstPageContentHeader{font-size: 1.9rem; margin-top: 50px}
 .firstPageContentText{font-size: 1.2rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
-.featuresContentRows {margin-top: 20px;}
-#secondFeaturesRow{margin-top: 220px;}
+.featuresContentRows {margin-top: 100px;}
 #forkIconEnabledForTablet{display: none;}
+.featuresIconsSize{width: 60px;}
+.featuresContentText{font-size: 0.7rem;}
+#secondFeaturesRow{margin-top: 270px;}
+#databaseIconMargin{margin-top: -100px;}
 }
-@media (max-width: 575px) and (min-width: 490px){
+@media (max-width: 575px) and (min-width: 525px){
 #homePageImage{ text-align:center ;margin-top: 79px;}
 #homePageImageSize{width: 300px;}
 #navBar{margin-top: -38px;}
@@ -103,8 +109,28 @@
 .firstPageContentText{font-size: 1rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
 .downloadButton{width: 100px;}
-.featuresContentRows {margin-top: 20px;}
+.featuresContentRows {margin-top: 90px;}
 #forkIconEnabledForTablet{display: none;}
+.featuresIconsSize{width: 40px;}
+.featuresContentText{font-size: 0.7rem;}
+#secondFeaturesRow{margin-top: 200px;}
+#databaseIconMargin{margin-top: -100px;}
+}
+
+@media (max-width: 524px) and (min-width: 490px){
+#homePageImage{ text-align:center ;margin-top: 79px;}
+#homePageImageSize{width: 300px;}
+#navBar{margin-top: -38px;}
+.firstPageContentHeader{font-size: 1.3rem; margin-top: 50px}
+.firstPageContentText{font-size: 1rem;}
+.homePageContentVisibilityForBigResolutio{display: none;}
+.downloadButton{width: 100px;}
+.featuresContentRows {margin-top: 90px;}
+#forkIconEnabledForTablet{display: none;}
+.featuresIconsSize{width: 40px;}
+.featuresContentText{font-size: 0.7rem;}
+#secondFeaturesRow{margin-top: 250px;}
+#databaseIconMargin{margin-top: -150px;}
 }
 
 @media (min-width: 319px) and (max-width: 489px) {
