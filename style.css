@@ -19,13 +19,14 @@
 	margin-top: 20px;
 }
 
-.firstPageContentHeader{
+.textHeaders{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	color: white;
 	font-size:2.5em;
 }
-.firstPageContentText{
+
+.contentText{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	color: white;
@@ -50,9 +51,19 @@
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 }
+span{
+	color: #4bc057;
+}
+p.descriptionPageHeaders{
+	color:#585b60;
+}
+p.descriptionPageText{
+	color:#9da6ac;
+	font-size: 1.1rem;
+}
 
 @media (min-width: 2201px) {
-#homePageImage{margin-top:12%;}
+.phoneImage{margin-top:12%;}
 #navBar{font-size: 100%}
 #brandName{font-size: 150%}
 #firstFeaturesRow{margin-top: -300px;}
@@ -61,28 +72,28 @@
 
 
 @media (min-width: 1202px) and (max-width: 2200px) {
-#homePageImage{margin-top:12%;}
+.phoneImage{margin-top:12%;}
 #navBar{font-size: 100%}
 #brandName{font-size: 150%}
 #forkIconEnabledForTablet{display: none;}
-.featuresContentRows {margin-top: 140px; padding: -50px;}
+.featuresContentRows {margin-top: 100px;}
 }
 @media (max-width: 1201px) and (min-width: 992px){
-#homePageImage{margin-top:15%;}
+.phoneImage{margin-top:15%;}
 #navBar{font-size: 80%}
 #brandName{font-size: 140%}
-.firstPageContentHeader{font-size: 2.3rem; margin-left:100px}
-.firstPageContentText{font-size: 1.2rem; margin-left:100px}
+.textHeaders{font-size: 2.3rem; margin-left:100px}
+.contentText{font-size: 1.2rem; margin-left:100px}
 .downloadButton{margin-left:100px;}
 #forkIconEnabledForTablet{display: none;}
 .featuresContentRows {margin-top: 140px; padding: -50px;}
 .featuresContentHeaders {font-size: 1.1rem;}
 }
 @media (max-width: 991px) and (min-width: 768px){
-#homePageImage{margin-top:27%;}
-#homePageImageSize{width: 150%;}
-.firstPageContentHeader{font-size: 1.7rem; margin-left:130px}
-.firstPageContentText{font-size: 1rem; margin-left:130px}
+.phoneImage{margin-top:27%;}
+.phoneImageSize{width: 150%;}
+.textHeaders{font-size: 1.7rem; margin-left:130px}
+.contentText{font-size: 1rem; margin-left:130px}
 .downloadButton{margin-left:130px;}
 .featuresContentHeaders{font-size: 0.9rem;}
 .featuresContentText{font-size: 0.8rem}
@@ -90,10 +101,10 @@
 .featuresContentRows {margin-top: 140px;}
 }
 @media (max-width: 767px) and (min-width: 576px){
-#homePageImage{ text-align:center ;margin-top: 13%;}
-#homePageImageSize{width: 60%;}
-.firstPageContentHeader{font-size: 1.9rem; margin-top: 50px}
-.firstPageContentText{font-size: 1.2rem;}
+.phoneImage{ text-align:center ;margin-top: 13%;}
+.phoneImageSize{width: 60%;}
+.textHeaders{font-size: 1.9rem; margin-top: 50px}
+.contentText{font-size: 1.2rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
 .featuresContentRows {margin-top: 100px;}
 #forkIconEnabledForTablet{display: none;}
@@ -103,11 +114,11 @@
 #databaseIconMargin{margin-top: -100px;}
 }
 @media (max-width: 575px) and (min-width: 525px){
-#homePageImage{ text-align:center ;margin-top: 79px;}
-#homePageImageSize{width: 300px;}
+.phoneImage{ text-align:center ;margin-top: 79px;}
+.phoneImageSize{width: 300px;}
 #navBar{margin-top: -38px;}
-.firstPageContentHeader{font-size: 1.3rem; margin-top: 50px}
-.firstPageContentText{font-size: 1rem;}
+.textHeaders{font-size: 1.3rem; margin-top: 50px}
+.contentText{font-size: 1rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
 .downloadButton{width: 100px;}
 .featuresContentRows {margin-top: 90px;}
@@ -119,11 +130,11 @@
 }
 
 @media (max-width: 524px) and (min-width: 490px){
-#homePageImage{ text-align:center ;margin-top: 79px;}
-#homePageImageSize{width: 300px;}
+.phoneImage{ text-align:center ;margin-top: 79px;}
+.phoneImageSize{width: 300px;}
 #navBar{margin-top: -38px;}
-.firstPageContentHeader{font-size: 1.3rem; margin-top: 50px}
-.firstPageContentText{font-size: 1rem;}
+.textHeaders{font-size: 1.3rem; margin-top: 50px}
+.contentText{font-size: 1rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
 .downloadButton{width: 100px;}
 .featuresContentRows {margin-top: 90px;}
@@ -135,11 +146,11 @@
 }
 
 @media (min-width: 316px) and (max-width: 489px) {
-#homePageImage{ text-align:center;margin-top:140px;}
-#homePageImageSize{width: 265px;}
+.phoneImage{ text-align:center;margin-top:140px;}
+.phoneImageSize{width: 265px;}
 #navBar{padding: 0px; font-size: 10px}
-.firstPageContentHeader{font-size: 1.3rem; margin-top: 80px}
-.firstPageContentText{font-size: 1rem;}
+.textHeaders{font-size: 1.3rem; margin-top: 80px}
+.contentText{font-size: 1rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
 .featuresContentRows {margin-top: 85px; }
 #forkIconEnabledForTablet{display: none;}
@@ -150,11 +161,11 @@
 }
 
 @media (max-width: 315px) {
-#homePageImage{ text-align:center;margin-top:140px;}
-#homePageImageSize{max-width:100%}
+.phoneImage{ text-align:center;margin-top:140px;}
+.phoneImageSize{max-width:100%}
 #navBar{padding: 0px; font-size: 9px; margin-left: -10px;}
-.firstPageContentHeader{font-size: 1.3rem; margin-top: 80px}
-.firstPageContentText{font-size: 1rem;}
+.textHeaders{font-size: 1.3rem; margin-top: 80px}
+.contentText{font-size: 1rem;}
 .homePageContentVisibilityForBigResolutio{display: none;}
 .featuresContentRows {margin-top: 75px; }
 #forkIconEnabledForTablet{display: none;}
