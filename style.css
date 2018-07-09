@@ -80,6 +80,9 @@ img{
 	text-transform: uppercase;
 	padding-left: 30px;
 	padding-right: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #585b60;
 }
 .downloadApp,
 .quotesContainer,
