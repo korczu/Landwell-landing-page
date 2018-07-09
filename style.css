@@ -167,25 +167,9 @@ p.descriptionPageText {
 	padding: 20px 0;
 	margin-bottom: 0;
 }
-/*Responsivity styles by width */
 
-@media (min-width: 2201px) {
-	
-	#navBar {
-		font-size: 100%
-	}
-	#brandName {
-		font-size: 150%
-	}
-	#firstFeaturesRow {
-		margin-top: -260px;
-	}
-	.forkIconEnabledForTablet {
-		display: none;
-	}
-}
 
-@media (min-width: 1522px) and (max-width: 2200px) {
+@media (min-width: 1522px)  {
 	
 	#navBar {
 		font-size: 100%
@@ -394,11 +378,6 @@ p.descriptionPageText {
 	.contentText {
 		font-size: 0.8rem;
 	}
-	.androidutton,
-	.appleButton {
-		margin-left: auto;
-		margin-right: auto;
-	}
 }
 
 @media (min-width: 316px) and (max-width: 489px) {
@@ -441,11 +420,6 @@ p.descriptionPageText {
 	}
 	.secondCarouselText {
 		font-size: 0.85rem
-	}
-	.androidutton,
-	.appleButton {
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
 
