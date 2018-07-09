@@ -466,16 +466,7 @@ p.descriptionPageText {
 	.firstPagecontentText {
 		font-size: 1rem;
 	}
-	.contentVisibilityForBigResolutio {
-		display: none;
-	}
-	.downloadButton {
-		margin-left: -10px;
-	}
-	/* .featuresContentRows {margin-top: 75px; } */
-	.forkIconEnabledForTablet {
-		display: none;
-	}
+
 	.featuresIconsSize {
 		width: 30px;
 	}
@@ -492,22 +483,8 @@ p.descriptionPageText {
 	.descriptionPageText {
 		font-size: 0.8rem;
 	}
-	.screenshots {
-		margin-top: 50px;
-		padding-bottom: 50px;
-	}
-	.sIcons {
-		padding-bottom: 10px;
-	}
-	.carousel-item {
-		text-align: center;
-	}
+
 	.secondCarouselText {
 		font-size: 0.85rem
-	}
-	.androidutton,
-	.appleButton {
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
