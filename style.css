@@ -3,6 +3,7 @@ button {
 	background-color: transparent;
 	border: none;
 	padding-top: 25px;
+
 }
 img{
 	max-width: 100%;
@@ -71,7 +72,11 @@ img{
 .buttonHover:hover {
 	cursor: pointer;
 }
-
+.h6{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #585b60;
+}
 .firstPageRow .btn {
 	background: #fff;
 	color: #000;
