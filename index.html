@@ -8,13 +8,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="Keywords" content="Html, CSS, Bootrstrap, JavaScript">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
-
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	</head>
-	<body >
-		<div class="container-fluid" id="background" >
+	<body>
+		<div class="container-fluid">
 
 			<!--Homepage-->
-			<div class="container">
+			<div class="container homepageContainer">
 
 				<!-- Brand name and navbar -->
 	    		<div class="row navBarRow">
@@ -34,105 +36,292 @@
 				</div>
 
 				<!-- First Page Content -->
-				<div class="row" style="width:auto; height:900px;">
+				<div class="row firstPageRow">
 
-					<div class="col-sm-12  col-xs-12 align-self-center d-md-none homePageContentForSmallResolution" align="left">
+					<!--Text for xs and sm resolution -->
+					<div class="col-sm-12  col-xs-12 align-self-center d-md-none homePageContentForSmallResolution">
 						<p class="textHeaders">Introducing Iolite app landing template </p>
-						<p class="contentText">Iolite is great new responsive app landing page template for your awesome app. This is freebie from uimint.com & you will get useful resources from there.</p>
-						<button class="downloadButton" style="background-color:transparent; border:none;">
+						<p class="firstPagecontentText">Iolite is great new responsive app landing page template for your awesome app. This is freebie from uimint.com & you will get useful resources from there.</p>
+						<button class="downloadButton">
 							<img src="images/buttonDownload.png">
 						</button>
 					</div>
 
-		   				<div class="col-lg-5 col-md-5 col-sm-12 phoneImage">
-		   					<img src="images/phone.png" class="phoneImageSize">
-		   				</div>
-		    			
-						<div class="col-lg-7 col-md-7 align-self-center homePageContentVisibilityForBigResolutio" align="left">
-							<p class="textHeaders">Introducing Iolite app landing template </p>
-							<p class="contentText">Iolite is great new responsive app landing page template for your awesome app. This is freebie from uimint.com & you will get useful resources from there.</p>
-							<br>
-							<button class="downloadButton" style="background-color:transparent; border:none;">
-								<img class="buttonHover" src="images/buttonDownload.png">
-							</button>
-						</div>        
-					</div>
+		   			<div class="col-lg-5 col-md-5 col-sm-12 phonesImages">
+		   				<img src="images/phone.png" class="firsAndSecondPhoneImageSize">
+		   			</div>
+
+		    			<!--Text for md and larger and sm resolution -->
+					<div class="col-lg-7 col-md-7 align-self-center contentVisibilityForBigResolutio" align="left">
+						<p class="textHeaders">Introducing Iolite app landing template </p>
+						<p class="firstPagecontentText">Iolite is great new responsive app landing page template for your awesome app. This is freebie from uimint.com & you will get useful resources from there.</p>
+						<br>
+						<button type="button" class="downloadButton">
+							<img class="buttonHover" src="images/buttonDownload.png">
+						</button>
+					</div>        
 				</div>
+			</div>
 
 			<!-- Features Page -->
-			<div class="container" align="center">
+			<div class="container featuresContainer" align="center">
 				<div class="featuresContentRows row align-items-end" id="firstFeaturesRow">
 
 					<div class="featuresContent col-lg-3 col-md-4 col-sm-12 col-xs-12">
 						<img class="featuresIconsSize"  src="images/cropIcon.png">
 						<p class="featuresContentHeaders">Clean and Responsive</p>
-						<p class="featuresContentText">
+						<p class="contentText">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci. </p>
 					</div>
 					<div class="featuresContent col-lg-3 col-md-4 col-sm-12 col-xs-12">
 						<img class="featuresIconsSize"  src="images/cubeIcon.png">
 						<p class="featuresContentHeaders">Retina Ready</p>
-						<p class="featuresContentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
+						<p class="contentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
 					</div>
 					<div class="featuresContent col-lg-3 col-md-4 col-sm-12 col-xs-12 ">
 						<img class="featuresIconsSize"  src="images/magicIcon.png">
 						<p class="featuresContentHeaders">Build with Bootstrap</p>
-						<p class="featuresContentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
+						<p class="contentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
 					</div>
-					<div class="featuresContent col-lg-3 col-md-2 col-sm-12 col-xs-12" id="forkIconDisabledForTablets">
+					<!-- fork icon for evry resolution except medium -->
+					<div class="featuresContent col-lg-3 col-sm-12 col-xs-12" id="forkIconDisabledForTablets">
 						<img class="featuresIconsSize" src="images/forkIcon.png">
 						<p class="featuresContentHeaders">Easy to Customize</p>
-						<p class="featuresContentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
+						<p class="contentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
 					</div>
 				</div> 
 
 				<div class="featuresContentRows row align-items-start" id="secondFeaturesRow">	
 
-					<div class="featuresContent col-md-4" id="forkIconEnabledForTablet">
+					<!-- fork icon for medium resolution -->
+					<div class="featuresContent col-md-4 forkIconEnabledForTablet">
 						<img class="featuresIconsSize" src="images/forkIcon.png">
 						<p class="featuresContentHeaders">Easy to Customize</p>
-						<p class="featuresContentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
+						<p class="contentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
 					</div>
 
 					<div class="featuresContent col-lg-3 col-md-4 col-sm-12 col-xs-12 offset-lg-3  ">
 						<img class="featuresIconsSize"  src="images/rocketIcon.png">
 						<p class="featuresContentHeaders">Hundreds of Icons</p>
-						<p class="featuresContentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
+						<p class="contentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
 					</div>
 
 					<div class="featuresContent col-lg-3 col-md-4 col-sm-12 col-xs-12">
 					<img class="featuresIconsSize" src="images/databaseIcon.png">
 						<p class="featuresContentHeaders">Multiple Layout</p>
-						<p class="featuresContentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
+						<p class="contentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nibh orci.</p>
 					</div>
-				</div>  
-			</div>    
+				</div>   
+			</div>
 
-			<!--Description Page-->
-			<div class="container descriptionPage">
-				<div class="row" style="width:auto; height:1010px;">
+			<!--Description Third Page -->
+			<div class="container descriptionContainer">
+				<div class="row">
 
-					<div class=" col-sm-12 col-xs-12 align-self-center d-md-none pageContentForSmallResolution" align="left">
+					<!--Text for xs and sm resolution -->
+					<div class=" col-sm-12 col-xs-12 align-self-center d-md-none pageContentForSmallResolution">
 						<p class="textHeaders descriptionPageHeaders">Description Third Layout</p>
-						<p class="contentText descriptionPageText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt efficitur vestibulum. Phasellus nisl leo, congue eu malesuada lobortis, fringilla et nulla. Curabitur posuere, sem nec bibendum finibus, erat turpis congue tellus, id sagittis eros purus quis odio. Etiam ut auctor mi. Nam enim augue, placerat ut pellentesque ac, dictum nec ligula. Maecenas venenatis nisi porta neque volutpat, nec vestibulum quam<span>elementum
-						</span>. Nunc blandit elit in pretium ultrices. 
+						<p class="contentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt efficitur vestibulum. Phasellus nisl leo, congue eu malesuada lobortis, fringilla et nulla. Curabitur posuere, sem nec bibendum finibus, erat turpis congue tellus, id sagittis eros purus quis odio. Etiam ut auctor mi. Nam enim augue, placerat ut pellentesque ac, dictum nec ligula. Maecenas venenatis nisi porta neque volutpat, nec vestibulum quam <span>elementum
+						</span>. Nunc blandit elit in pretium ultrices. </p>
 						<br>
-						Cras dapibus accumsan ex a luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam maximus rhoncus orci, tempor mollis purus euismod sed. Proin aliquam nibh eros, iaculis accumsan dolor tempor ac. Proin commodo elementum magna at aliquam. Donec semper libero ut ipsum pharetra eleifend. Etiam rhoncus orci metus, eget pulvinar quam lobortis.</p>
+						<p class="contentText">Cras dapibus accumsan ex a luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam maximus rhoncus orci, tempor mollis purus euismod sed. Proin aliquam nibh eros, iaculis accumsan dolor tempor ac. Proin commodo elementum magna at aliquam. Donec semper libero ut ipsum pharetra eleifend. Etiam rhoncus orci metus, eget pulvinar quam lobortis.</p>
 					</div>
 
-		   				<div class="col-lg-4 col-md-4 col-sm-12 phoneImage" >
-		   					<img src="images/phoneSecond.png" class="phoneImageSize">
-		   				</div>
+		   			<div class="col-lg-4 col-md-4 col-sm-12 phonesImages marginImage" >
+		   				<img src="images/phoneSecond.png" class="firsAndSecondPhoneImageSize">
+		   			</div>
 		    			
-						<div class="col-lg-7 col-md-8 offset-lg-1 align-self-center homePageContentVisibilityForBigResolutio" align="left">
-							<p class="textHeaders descriptionPageHeaders">Description Third Layout</p>
-						<p class="contentText descriptionPageText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt efficitur vestibulum. Phasellus nisl leo, congue eu malesuada lobortis, fringilla et nulla. Curabitur posuere, sem nec bibendum finibus, erat turpis congue tellus, id sagittis eros purus quis odio. Etiam ut auctor mi. Nam enim augue, placerat ut pellentesque ac, dictum nec ligula. Maecenas venenatis nisi porta neque volutpat, nec vestibulum quam<span>elementum
-						</span>. Nunc blandit elit in pretium ultrices. 
-						<br>
+		    		<!--Text for md and larger and sm resolution -->
+					<div class="col-lg-7 col-md-8 offset-lg-1 align-self-center contentVisibilityForBigResolutio">
+						<p class="textHeaders descriptionPageHeaders">Description Third Layout</p>
+						<p class="contentText descriptionPageTextForBigREsolution">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt efficitur vestibulum. Phasellus nisl leo, congue eu malesuada lobortis, fringilla et nulla. Curabitur posuere, sem nec bibendum finibus, erat turpis congue tellus, id sagittis eros purus quis odio. Etiam ut auctor mi. Nam enim augue, placerat ut pellentesque ac, dictum nec ligula. Maecenas venenatis nisi porta neque volutpat, nec vestibulum quam <span>elementum
+						</span>. Nunc blandit elit in pretium ultrices.</p>
+						</br>
+						<p class="contentText descriptionPageTextForBigREsolution">
 						Cras dapibus accumsan ex a luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam maximus rhoncus orci, tempor mollis purus euismod sed. Proin aliquam nibh eros, iaculis accumsan dolor tempor ac. Proin commodo elementum magna at aliquam. Donec semper libero ut ipsum pharetra eleifend. Etiam rhoncus orci metus, eget pulvinar quam lobortis.</p>
 						</div>        
 					</div>
 				</div>
-		</div> 
-</body>
+
+			<!-- Screenshots page -->
+			<div class="container screenshotsContainer" align="center">
+
+				<p class="textHeaders galleryHeaders">APP Gallery</p>
+				<p class="contentText" style="color:white;">Showcase your app screenshots into a nice carousel below. You can add as many screenshots as you want.</p>
+
+				<!-- Carusel for md and larger and sm resolution --> 
+				<div id="carouselExampleIndicators" class="carousel slide contentVisibilityForBigResolutio " data-ride="carousel">
+				    <ol class="carousel-indicators">
+				    	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    	<li  data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				   		<li data-target="#carouselExampleIndicators"  data-slide-to="2"></li>
+				    </ol>
+
+					<div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block w-100" src="images/screenshots.png" alt="First slide">
+					    </div>
+
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="images/screenshots.png" alt="Second slide">
+					    </div>
+
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="images/screenshots.png" alt="Third slide">
+					    </div>
+					  </div>
+					</div>
+
+					<!--Gallery for small resolutions -->
+					<div class="d-md-none"><img class="screenshots" src="images/screenshots.png" >
+					<img class="screenshots" src="images/screenshots.png">
+					<img class="screenshots" src="images/screenshots.png">
+				</div>
+			</div>		
+
+			<!--Description First Page-->
+			<div class="container descriptionThirdContainer">
+				<div class="row">
+
+		   			<div class="col-lg-5 col-md-4 col-sm-12 phonesImages marginImage" >
+		   				<img src="images/phoneThird.png" class="thirdPhoneImageSize">
+		   			</div>
+		    			
+		    		<!--Text for md and larger and sm resolution -->
+					<div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 offset-lg-1 align-self-center ">
+						<p class="textHeaders firstDescriptionPageHeaders">Description First Layout</p>
+						<p class="contentText descriptionPageText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt efficitur vestibulum. Phasellus nisl leo, congue eu malesuada lobortis, fringilla et nulla.</p>
+						<br>
+						<div class="contentText">
+							<ul class="list descriptionPageText">
+
+								<li class="list-inline-item row ">
+									<div class='badge col-xs-12' >
+										<img class="descriptionPageIcons" src="images/shieldIcon.png">
+									</div>
+									<div>
+										Hundreds of Icons
+										</br>
+										Ipsum dolor sit amet, consectetur adipiscing elit ...
+									</div>
+								</li>
+								</br>
+
+
+								<li class="list-inline-item row ">
+									<div class='badge'>
+										<img class="descriptionPageIcons" src="images/cssIcon.png">
+									</div>
+									<div>
+										Eazy to Customize
+										</br>
+										Ipsum dolor sit amet, consectetur adipiscing elit ...
+									</div>
+								</li>
+								</br>
+
+
+								<li class="list-inline-item row ">
+									<div class='badge'>
+										<img class="descriptionPageIcons"  src="images/fileIcon.png">
+									</div>
+									<div>
+										Clean and Responsive
+										</br>
+										Consectetur adipiscing elit. Integer tincidunt efficitur ...
+									</div>
+								</li>
+								</br>
+
+								<li class="list-inline-item row ">
+									<div class='badge'>
+										<img class="descriptionPageIcons" src="images/tasksIcon.png">
+									</div>
+									<div>
+										Multiple Layout
+										</br>
+										Adipiscing elit. Integer tincidunt efficitur vestibulum sit ...
+									</div>
+								</li>
+								</br>
+							</ul>
+						</div>
+					</div> 
+				</div>
+			</div>
+
+			<!-- Quotes&carousel page -->
+			<div class="container quotesContainer" align="center">
+
+					<!-- Carusel for md and larger and sm resolution --> 
+					<div class="carousel slide  quotesCarousel" data-ride="carousel">
+					 	<ol class="carousel-indicators">
+						    <li data-target="#carouselIndicators2" data-slide-to="0" class="active"></li>
+						    <li  data-target="#carouselIndicators2" data-slide-to="1"></li>
+						    <li data-target="#carouselIndicators2"  data-slide-to="2"></li>
+					    </ol>
+
+						<div class="carousel-inner">
+
+						    <div class="carousel-item active">
+						    	<div>
+						    		<p class="firstPagecontentText secondCarouselText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quis nostrud nisi ut aliquip ex ea commodo consequat.</p>
+									<p class="contentText" style="color:white;">Jhone Due, Photographer</p>
+								</div>     	
+						    </div>
+
+						    <div class="carousel-item ">
+						    	<div>
+						    		<p class="firstPagecontentText secondCarouselText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quis nostrud nisi ut aliquip ex ea commodo consequat.</p>
+									<p class="contentText" style="color:white;">Jhone Due, Photographer</p>
+								</div>     	
+						    </div>
+
+						    <div class="carousel-item ">
+						    	<div>
+						    		<p class="firstPagecontentText secondCarouselText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quis nostrud nisi ut aliquip ex ea commodo consequat.</p>
+									<p class="contentText" style="color:white;">Jhone Due, Photographer</p>
+								</div> 
+							</div>
+						</div>
+					</div>
+			</div>		
+
+			<!-- Downaload App page -->
+			<div class="container downloadApp" align="center">
+
+				<p class="textHeaders descriptionPageHeaders downloadHeader">Download the App</p>
+				<p class="contentText">
+					Phasellus nisl leo congue eu malesuada lobortis fringilla et nulla. Curabitur posuere sem nec bibendum finibus.</p>
+
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12 d-md-none appleButton" >
+						<button type="button" >
+							<img src="images/appStoreButton.png">
+						</button>
+					</div>
+
+					<div class=" col-md-6 col-sm-12 col-xs-12 d-md-none androidutton" >
+						<button type="button" >
+							<img src="images/androidButton.png">
+						</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 offset-md-1 appleButton contentVisibilityForBigResolutio " align="right">
+						<button type="button" >
+							<img src="images/appStoreButton.png">
+						</button>
+					</div>
+
+					<div class="col-xl-5 col-lg-6 col-md-5 col-sm-12 col-xs-12 androidutton contentVisibilityForBigResolutio" align="left">
+						<button type="button" >
+							<img src="images/androidButton.png">
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="footer "align="center"><p class="contentText ">Copyright © CODEMIC. All rights reserved</p></div>
+		</div>
+	</body>
 </html>

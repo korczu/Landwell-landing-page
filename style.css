@@ -1,175 +1,268 @@
-#background {
-	background-image: url('images/background.png');
-	height: auto; 
-	max-width:1923;
-}
+/*Global scope styles */
+.container-fluid{background-image:url('images/background.png'); max-height: 6071px;}
+button {background-color:transparent;	border:none; padding-bottom: 50px; padding-top: 25px;}
+
+
+/*grid */
+.homepageContainer{max-height: 980px}
+.featuresContainer{max-height: 925px;}
+.descriptionContainer{width:auto; 	height:1010px;}
+.screenshotsContainer{width: auto; height: 950px}
+.descriptionThirdContainer{width: auto; height: 1042;}
+.quotesContainer{width: auto; height: 469px;}
+.downloadApp{width: auto;height: 520px;}
+.footer{max-height: 120px;}
 /*First page styles */
-.navBarRow{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	color: white;
-	height:80px;
-}
-#navBar{
-	font-size: 70%;
-	margin-top: 25px;
-}
-#brandName{
-	font-size: 130%;
-	margin-top: 20px;
-}
+.firstPageRow{width:auto;	height:900px;}
+.navBarRow{font-family:'Montserrat',sans-serif;		font-weight:600;	color:white;	height:80px;}
+#navBar{font-size:70%;		margin-top:25px;}
+#brandName{font-size:130%;		margin-top:20px;}
+.textHeaders{font-family:'Montserrat', sans-serif;	font-weight:400;	color:white;	font-size:2.5em;}
+.firstPagecontentText{font-family:'Montserrat', sans-serif;	font-weight:300;	color:white;	font-size: 1.4em;}
+.homePageContentForSmallResolution{height:300px;}
+.buttonHover:hover {cursor:pointer;}
 
-.textHeaders{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	color: white;
-	font-size:2.5em;
-}
+/*Styles for Feauterspage */
+.featuresContentRows {width:100%;	height:50%;}
+.featuresContentHeaders{font-family:'Montserrat', sans-serif;			font-weight:400;	font-size: 1.2rem;}
+.contentText{font-family:'Montserrat', sans-serif;		font-weight: 300;}
+span{color:#4bc057;}
+p.descriptionPageHeaders, .firstDescriptionPageHeaders{color:#585b60;}
+p.descriptionPageText{color:#9da6ac;	font-size: 1.1rem;}
 
-.contentText{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	color: white;
-	font-size: 1.4em;
-}
-.homePageContentForSmallResolution{
-	height: 300px;
-}
-.buttonHover:hover {
-	cursor: pointer;
-}
-.featuresContentRows {
-	width:100%; 
-	height:50%;
-}
-.featuresContentHeaders{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 1.2rem;
-}
-.featuresContentText{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-}
-span{
-	color: #4bc057;
-}
-p.descriptionPageHeaders{
-	color:#585b60;
-}
-p.descriptionPageText{
-	color:#9da6ac;
-	font-size: 1.1rem;
-}
 
+/* Screenshots page */
+.screenshots{max-width: 100%;}
+.carousel-item{padding: 50px;}
+
+
+/*Responsivity styles by width */
 @media (min-width: 2201px) {
-.phoneImage{margin-top:12%;}
+.phonesImages{margin-top:12%;}
+
 #navBar{font-size: 100%}
 #brandName{font-size: 150%}
-#firstFeaturesRow{margin-top: -300px;}
-#forkIconEnabledForTablet{display: none;}
+
+#firstFeaturesRow{margin-top: -260px;}
+.forkIconEnabledForTablet{display: none;}
+
+.descriptionContainer{margin-top: 250px;} 
+
+.screenshotsContainer{margin-top: 200px;}
+.footer{margin-top: -100px}
+
 }
 
+@media (min-width: 1522px) and (max-width: 2200px) {
+.phonesImages{margin-top:12%;}
 
-@media (min-width: 1202px) and (max-width: 2200px) {
-.phoneImage{margin-top:12%;}
 #navBar{font-size: 100%}
 #brandName{font-size: 150%}
-#forkIconEnabledForTablet{display: none;}
+
+.forkIconEnabledForTablet{display: none;}
+.featuresContentRows {margin-top: -80px; margin-bottom: 250px;}
+.screenshotsContainer{margin-top: 100px;}
+
+.descriptionThirdContainer{margin-top: -50px;}
+.footer{margin-top: -100px}
+}
+
+@media (min-width: 1202px) and (max-width: 1521px) {
+.phonesImages{margin-top:12%;}
+
+#navBar{font-size: 100%}
+#brandName{font-size: 150%}
+
+.forkIconEnabledForTablet{display: none;}
 .featuresContentRows {margin-top: 100px;}
+.screenshotsContainer{margin-top: 300px;}
+
+.descriptionThirdContainer{margin-top: -50px;}
+.footer{margin-top: -70px}
 }
+
+
+
 @media (max-width: 1201px) and (min-width: 992px){
-.phoneImage{margin-top:15%;}
+.phonesImages{margin-top:15%;}
+
 #navBar{font-size: 80%}
 #brandName{font-size: 140%}
+
 .textHeaders{font-size: 2.3rem; margin-left:100px}
-.contentText{font-size: 1.2rem; margin-left:100px}
+.firstPagecontentText{font-size: 1.2rem; margin-left:100px}
 .downloadButton{margin-left:100px;}
-#forkIconEnabledForTablet{display: none;}
+
+.forkIconEnabledForTablet{display: none;}
 .featuresContentRows {margin-top: 140px; padding: -50px;}
 .featuresContentHeaders {font-size: 1.1rem;}
+.descriptionPageTextForBigREsolution{margin-left: 100px;}
+
+.galleryHeaders{margin-left: 0px;}
+.screenshotsContainer{margin-top: 350px;}
+.descriptionPageText{font-size: 1rem;}
+.thirdPhoneImageSize{width: 100%;}
+.firstDescriptionPageHeaders{margin-left: 0px;}
+.descriptionPageText{font-size: 0.5rem; font-size: 0.7rem;}
+
+.quotesCarousel{margin-top: -100px; margin-right: 0px;}
+.secondCarouselText{margin-left: 0px;}
+
+.downloadHeader{margin-left: auto; margin-right: auto;}
+.footer{margin-top: -70px}
 }
+
 @media (max-width: 991px) and (min-width: 768px){
-.phoneImage{margin-top:27%;}
-.phoneImageSize{width: 150%;}
+.phonesImages{margin-top:27%;}
+.firsAndSecondPhoneImageSize, .thirdPhoneImageSize{width: 150%;}
 .textHeaders{font-size: 1.7rem; margin-left:130px}
-.contentText{font-size: 1rem; margin-left:130px}
+.firstPagecontentText{font-size: 1rem; margin-left:130px}
 .downloadButton{margin-left:130px;}
+
 .featuresContentHeaders{font-size: 0.9rem;}
-.featuresContentText{font-size: 0.8rem}
+.contentText{font-size: 0.8rem}
 #forkIconDisabledForTablets{display: none;}
 .featuresContentRows {margin-top: 140px;}
+
+.descriptionContainer{margin-top: 150px;}
+.descriptionPageHeaders, .firstDescriptionPageHeaders{margin-top:100px;margin-left: 100px;}
+.descriptionPageTextForBigREsolution{margin-left: 100px;}
+
+.galleryHeaders{margin-left: 0px;}
+.screenshotsContainer{margin-top: 200px;}
+
+.descriptionPageText{ margin-left: 100px; font-size: 0.6rem}
+.carousel-item{text-align: center;}
+.quotesCarousel{margin-top: -100px; margin-right: 0px;}
+.secondCarouselText{margin-left: 0px;}
+.appleButton {margin-right: }
+.androidutton {margin-left: 20px;}
+
+.downloadApp{margin-top: -10%;}
+.downloadHeader{margin-left: auto; margin-right: auto;}
+.footer{margin-top: -70px}
 }
+
 @media (max-width: 767px) and (min-width: 576px){
-.phoneImage{ text-align:center ;margin-top: 13%;}
-.phoneImageSize{width: 60%;}
+.phonesImages{ text-align:center ;margin-top: 13%;}
+.firsAndSecondPhoneImageSize, .thirdPhoneImageSize{width: 60%;}
 .textHeaders{font-size: 1.9rem; margin-top: 50px}
-.contentText{font-size: 1.2rem;}
-.homePageContentVisibilityForBigResolutio{display: none;}
+.firstPagecontentText{font-size: 1.2rem;}
+.contentVisibilityForBigResolutio{display: none;}
+
 .featuresContentRows {margin-top: 100px;}
-#forkIconEnabledForTablet{display: none;}
+.forkIconEnabledForTablet{display: none;}
 .featuresIconsSize{width: 60px;}
-.featuresContentText{font-size: 0.7rem;}
+.contentText{font-size: 0.7rem;}
 #secondFeaturesRow{margin-top: 270px;}
 #databaseIconMargin{margin-top: -100px;}
+
+.galleryHeaders{margin-left: 0px;}
+.footer{margin-top: -30px}
 }
+
 @media (max-width: 575px) and (min-width: 525px){
-.phoneImage{ text-align:center ;margin-top: 79px;}
-.phoneImageSize{width: 300px;}
+.phonesImages{ text-align:center ;margin-top: 79px;}
+.firsAndSecondPhoneImageSize, .thirdPhoneImageSize{width: 300px;}
+
 #navBar{margin-top: -38px;}
 .textHeaders{font-size: 1.3rem; margin-top: 50px}
-.contentText{font-size: 1rem;}
-.homePageContentVisibilityForBigResolutio{display: none;}
+.firstPagecontentText{font-size: 1rem;}
+.contentVisibilityForBigResolutio{display: none;}
 .downloadButton{width: 100px;}
+
 .featuresContentRows {margin-top: 90px;}
-#forkIconEnabledForTablet{display: none;}
+.forkIconEnabledForTablet{display: none;}
 .featuresIconsSize{width: 40px;}
-.featuresContentText{font-size: 0.7rem;}
+.contentText{font-size: 0.7rem;}
 #secondFeaturesRow{margin-top: 200px;}
 #databaseIconMargin{margin-top: -100px;}
+
+.descriptionContainer{margin-top: 100px;}
+.galleryHeaders{margin-left: 0px;}
+.footer{margin-top: -40px}
+
 }
 
 @media (max-width: 524px) and (min-width: 490px){
-.phoneImage{ text-align:center ;margin-top: 79px;}
-.phoneImageSize{width: 300px;}
+.phonesImages{ text-align:center ;margin-top: 79px;}
+.firsAndSecondPhoneImageSize, .thirdPhoneImageSize{width: 300px;}
+
 #navBar{margin-top: -38px;}
 .textHeaders{font-size: 1.3rem; margin-top: 50px}
-.contentText{font-size: 1rem;}
-.homePageContentVisibilityForBigResolutio{display: none;}
+.firstPagecontentText{font-size: 1rem;}
+.contentVisibilityForBigResolutio{display: none;}
 .downloadButton{width: 100px;}
+
 .featuresContentRows {margin-top: 90px;}
-#forkIconEnabledForTablet{display: none;}
+.forkIconEnabledForTablet{display: none;}
 .featuresIconsSize{width: 40px;}
-.featuresContentText{font-size: 0.7rem;}
+.contentText{font-size: 0.7rem;}
 #secondFeaturesRow{margin-top: 250px;}
 #databaseIconMargin{margin-top: -150px;}
+.androidutton, .appleButton {margin-left: auto; margin-right: auto;}
 }
 
 @media (min-width: 316px) and (max-width: 489px) {
-.phoneImage{ text-align:center;margin-top:140px;}
-.phoneImageSize{width: 265px;}
+.phonesImages{ text-align:center;margin-top:140px;}
+.firsAndSecondPhoneImageSize, .thirdPhoneImageSize{width: 265px;}
+
 #navBar{padding: 0px; font-size: 10px}
 .textHeaders{font-size: 1.3rem; margin-top: 80px}
-.contentText{font-size: 1rem;}
-.homePageContentVisibilityForBigResolutio{display: none;}
+.firstPagecontentText{font-size: 1rem;}
+.contentVisibilityForBigResolutio{display: none;}
+
 .featuresContentRows {margin-top: 85px; }
-#forkIconEnabledForTablet{display: none;}
+.forkIconEnabledForTablet{display: none;}
 .featuresIconsSize{width: 40px;}
-.featuresContentText{font-size: 0.7rem;}
+.contentText{font-size: 0.7rem;}
 #secondFeaturesRow{margin-top: 250px;}
 #databaseIconMargin{margin-top: -150px;}
+
+.marginImage{margin-top: 43%;}
+
+.descriptionThirdContainer{margin-top: -160px;}
+.thirdPhoneImageSize{width: 100%;}
+.descriptionPageText{margin-top: -10px;}
+.firstDescriptionPageHeaders{margin-top: -20px;}
+
+.quotesCarousel{max-height: 100%; margin-bottom: 0px; margin-top: 190px}
+.carousel-item{text-align: center;}
+.secondCarouselText{font-size: 0.85rem}
+
+.androidutton, .appleButton {margin-left: auto; margin-right: auto;}
+.footer{margin-top: -60px}
+
 }
 
 @media (max-width: 315px) {
-.phoneImage{ text-align:center;margin-top:140px;}
-.phoneImageSize{max-width:100%}
+.phonesImages{ text-align:center;margin-top:180px;}
+.firsAndSecondPhoneImageSize, .thirdPhoneImageSize{max-width:100%}
+
 #navBar{padding: 0px; font-size: 9px; margin-left: -10px;}
 .textHeaders{font-size: 1.3rem; margin-top: 80px}
-.contentText{font-size: 1rem;}
-.homePageContentVisibilityForBigResolutio{display: none;}
+.firstPagecontentText{font-size: 1rem;}
+.contentVisibilityForBigResolutio{display: none;}
+.downloadButton{margin-left:-10px;}
+
 .featuresContentRows {margin-top: 75px; }
-#forkIconEnabledForTablet{display: none;}
+.forkIconEnabledForTablet{display: none;}
 .featuresIconsSize{width: 30px;}
-.featuresContentText{font-size: 0.7rem;}
+.contentText{font-size: 0.7rem;}
 #secondFeaturesRow{margin-top: 300px;}
-}
+
+.descriptionContainer{margin-top: -50px; margin-bottom: 100px;}
+.descriptionPageHeaders, .firstDescriptionPageHeaders{font-size: 0.9rem;}
+.descriptionPageText{font-size: 0.7rem;}
+
+.screenshots{ margin-top: 50px ;padding-bottom: 50px;}
+.screenshotsPage{margin-top: 200px;}
+.sIcons{ padding-bottom: 10px;}
+.quotesCarousel{max-height: 100%; margin-bottom: 0px; margin-top: 190px}
+.carousel-item{text-align: center;}
+.secondCarouselText{font-size: 0.85rem}
+
+.descriptionThirdContainer{margin-top: -225px;}
+
+.androidutton, .appleButton {margin-left: auto; margin-right: auto;}
+.footer{margin-top: -30px}
