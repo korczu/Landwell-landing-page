@@ -380,85 +380,19 @@ p.descriptionPageText {
 	}
 }
 
-@media (min-width: 316px) and (max-width: 489px) {
+@media (max-width: 489px) {
 	
-	.firsAndSecondPhoneImageSize,
-	.thirdPhoneImageSize {
-		width: 265px;
-	}
-	#navBar {
-		padding: 0px;
-		font-size: 10px
-	}
 	.textHeaders {
 		font-size: 1.3rem;
 	}
 	.firstPagecontentText {
 		font-size: 1rem;
 	}
-	.contentVisibilityForBigResolutio {
-		display: none;
-	}
-	/* .featuresContentRows {margin-top: 85px; } */
-	.forkIconEnabledForTablet {
-		display: none;
-	}
-	.featuresIconsSize {
-		width: 40px;
-	}
 	.contentText {
-		font-size: 0.8rem;
-	}
-	.thirdPhoneImageSize {
-		width: 100%;
-	}
-	.descriptionPageText {
-		margin-top: -10px;
-	}
-	.carousel-item {
-		text-align: center;
-	}
-	.secondCarouselText {
-		font-size: 0.85rem
-	}
-}
-
-@media (max-width: 315px) {
-	
-	.firsAndSecondPhoneImageSize,
-	.thirdPhoneImageSize {
-		max-width: 100%
-	}
-	#navBar {
-		padding: 0px;
-		font-size: 9px;
-		margin-left: -10px;
-	}
-	.textHeaders {
-		font-size: 1.3rem;
-	}
-	.firstPagecontentText {
-		font-size: 1rem;
-	}
-
-	.featuresIconsSize {
-		width: 30px;
-	}
-	.contentText {
-		font-size: 0.8rem;
-	}
-	#secondFeaturesRow {
-		margin-top: 300px;
-	}
-	.descriptionPageHeaders,
-	.firstDescriptionPageHeaders {
-		font-size: 0.9rem;
-	}
-	.descriptionPageText {
 		font-size: 0.8rem;
 	}
 
 	.secondCarouselText {
-		font-size: 0.85rem
+		font-size: 0.9rem
 	}
 }
