@@ -114,11 +114,8 @@ img{
 	background-color: #f8f9fb;
 }
 
-/*Styles for Feauterspage */
-
 .featuresContentRows {
 	width: 100%;
-	/* 	height:50%; */
 }
 
 .featuresContentHeaders {
@@ -146,9 +143,6 @@ p.descriptionPageText {
 	font-size: 1.1rem;
 }
 
-
-/* Screenshots page */
-
 .screenshots {
 	max-width: 100%;
 }
@@ -169,40 +163,15 @@ p.descriptionPageText {
 }
 
 
-@media (min-width: 1522px)  {
-	
-	#navBar {
-		font-size: 100%
-	}
-	#brandName {
-		font-size: 150%
-	}
-	.forkIconEnabledForTablet {
-		display: none;
-	}
-}
 
-@media (min-width: 1202px) and (max-width: 1521px) {
-	
-	#navBar {
-		font-size: 100%
-	}
+@media (min-width: 1202px) x) {
 	#brandName {
-		font-size: 150%
+		font-size: 1.5rem;
 	}
-	.forkIconEnabledForTablet {
-		display: none;
-	}
-	
-}
 
-@media (max-width: 1201px) and (min-width: 992px) {
-	
-	#navBar {
-		font-size: 80%
-	}
+@media (max-width: 1201px) and (min-width: 992px) {	
 	#brandName {
-		font-size: 140%
+		font-size: 1.5rem;
 	}
 	.textHeaders {
 		font-size: 2.3rem;
@@ -210,50 +179,25 @@ p.descriptionPageText {
 	.firstPagecontentText {
 		font-size: 1.2rem;
 	}
-	.forkIconEnabledForTablet {
-		display: none;
-	}
-	/* .featuresContentRows {margin-top: 140px; padding: -50px;} */
+
 	.featuresContentHeaders {
 		font-size: 1.1rem;
-	}
-	.galleryHeaders {
-		margin-left: 0px;
 	}
 	.descriptionPageText {
 		font-size: 1rem;
 	}
-	.thirdPhoneImageSize {
-		width: 100%;
-	}
-	.firstDescriptionPageHeaders {
-		margin-left: 0px;
-	}
+
 	.descriptionPageText {
-		font-size: 0.5rem;
 		font-size: 0.8rem;
 	}
-	.secondCarouselText {
-		margin-left: 0px;
-	}
-	.downloadHeader {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-	
-	.firsAndSecondPhoneImageSize,
-	.thirdPhoneImageSize {
-		width: 150%;
-	}
 	.textHeaders {
-		font-size: 1.7rem;
+		font-size: 1.9rem;
 	}
 	.firstPagecontentText {
-		font-size: 1rem
+		font-size: 1.2rem
 	}
 	.featuresContentHeaders {
 		font-size: 0.9rem;
@@ -261,59 +205,26 @@ p.descriptionPageText {
 	.contentText {
 		font-size: 0.8rem
 	}
-	#forkIconDisabledForTablets {
-		display: none;
-	}
-	.galleryHeaders {
-		margin-left: 0px;
-	}
 	.descriptionPageText {
 		font-size: 0.8rem
 	}
-	.carousel-item {
-		text-align: center;
-	}
 	.secondCarouselText {
-		margin-left: 0px;
-	}
-	.appleButton {
-		margin-right:
-	}
-	.androidutton {
-		margin-left: 20px;
-	}
-	.downloadHeader {
-		margin-left: auto;
-		margin-right: auto;
-	}
+		font-size: 0.9rem
+
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
-	
-	.firsAndSecondPhoneImageSize,
-	.thirdPhoneImageSize {
-		width: 60%;
-	}
 	.textHeaders {
 		font-size: 1.9rem;
 	}
 	.firstPagecontentText {
 		font-size: 1.2rem;
 	}
-	.contentVisibilityForBigResolutio {
-		display: none;
-	}
-	.forkIconEnabledForTablet {
-		display: none;
-	}
-	.featuresIconsSize {
-		width: 60px;
-	}
 	.contentText {
 		font-size: 0.8rem;
 	}
-	.galleryHeaders {
-		margin-left: 0px;
+	.secondCarouselText {
+		font-size: 0.9rem
 	}
 }
 
