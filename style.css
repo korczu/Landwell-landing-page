@@ -19,14 +19,14 @@ img{
 	border-radius: 100%;
 }
 
-.firstPageRow {
+.headPageRow {
 	width: auto;
 	padding-top: 80px;
 	background: url(images/bg.jpg) no-repeat center center;
 	background-size: cover;
 }
 
-.navBarRow {
+.headRow {
 	width: 100%;
 	position: absolute;
 	left: 0;
@@ -65,7 +65,7 @@ img{
 	font-size: 1.4em;
 }
 
-.homePageContentForSmallResolution {
+.homePageContent {
 	height: 300px;
 }
 
@@ -77,7 +77,7 @@ img{
 	font-weight: 400;
 	color: #585b60;
 }
-.firstPageRow .btn {
+.headPageRow .btn {
 	background: #fff;
 	color: #000;
 	border: 0;
@@ -114,8 +114,11 @@ img{
 	background-color: #f8f9fb;
 }
 
+/*Styles for Feauterspage */
+
 .featuresContentRows {
 	width: 100%;
+	/* 	height:50%; */
 }
 
 .featuresContentHeaders {
@@ -143,6 +146,9 @@ p.descriptionPageText {
 	font-size: 1.1rem;
 }
 
+
+
+
 .screenshots {
 	max-width: 100%;
 }
@@ -151,7 +157,7 @@ p.descriptionPageText {
 	padding: 50px;
 }
 
-.phonesImages{
+.homePageImage{
 	margin-bottom: -9vw;
 }
 .featuresContainer{
@@ -168,7 +174,7 @@ p.descriptionPageText {
 	#brandName {
 		font-size: 1.5rem;
 	}
-
+}
 @media (max-width: 1201px) and (min-width: 992px) {	
 	#brandName {
 		font-size: 1.5rem;
@@ -210,7 +216,7 @@ p.descriptionPageText {
 	}
 	.secondCarouselText {
 		font-size: 0.9rem
-
+	}
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
