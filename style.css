@@ -157,7 +157,7 @@ p.descriptionPageText {
 	padding: 20px 0;
 	margin-bottom: 0;
 }
-.appGalleryContainer .contentText{
+.appGalleryContainer .contentText, .quotesContainer .contentText{
 	color: white;
 }
 
