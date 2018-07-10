@@ -41,10 +41,6 @@ img{
 	position: relative;
 }
 
-#navBar {
-	font-size: 70%;
-	margin-top: 25px;
-}
 
 #brandName {
 	font-size: 130%;
@@ -92,11 +88,11 @@ img{
 .downloadApp,
 .quotesContainer,
 .descriptionThirdContainer,
-.screenshotsContainer,
+.appGalleryContainer,
 .descriptionContainer{
 	padding: 100px 0;
 }
-.screenshotsContainer{
+.appGalleryContainer{
 	background: rgba(119,217,129,1);
 	background: -moz-linear-gradient(-45deg, rgba(119,217,129,1) 0%, rgba(50,174,54,1) 100%);
 	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(119,217,129,1)), color-stop(100%, rgba(50,174,54,1)));
@@ -114,11 +110,9 @@ img{
 	background-color: #f8f9fb;
 }
 
-/*Styles for Feauterspage */
-
 .featuresContentRows {
 	width: 100%;
-	/* 	height:50%; */
+
 }
 
 .featuresContentHeaders {
@@ -136,8 +130,7 @@ span {
 	color: #4bc057;
 }
 
-p.descriptionPageHeaders,
-.firstDescriptionPageHeaders {
+p.headersColor {
 	color: #585b60;
 }
 
@@ -145,9 +138,6 @@ p.descriptionPageText {
 	color: #9da6ac;
 	font-size: 1.1rem;
 }
-
-
-
 
 .screenshots {
 	max-width: 100%;
@@ -167,8 +157,9 @@ p.descriptionPageText {
 	padding: 20px 0;
 	margin-bottom: 0;
 }
-
-
+.appGalleryContainer .contentText{
+	color: white;
+}
 
 @media (min-width: 1202px) x) {
 	#brandName {
