@@ -317,71 +317,7 @@ p.descriptionPageText {
 	}
 }
 
-@media (max-width: 575px) and (min-width: 525px) {
-	
-	.firsAndSecondPhoneImageSize,
-	.thirdPhoneImageSize {
-		width: 300px;
-	}
-	.textHeaders {
-		font-size: 1.3rem;
-	}
-	.firstPagecontentText {
-		font-size: 1rem;
-	}
-	.contentVisibilityForBigResolutio {
-		display: none;
-	}
-	.downloadButton {
-		width: 100px;
-	}
-	/* .featuresContentRows {margin-top: 90px;} */
-	.forkIconEnabledForTablet {
-		display: none;
-	}
-	.featuresIconsSize {
-		width: 40px;
-	}
-	.contentText {
-		font-size: 0.8rem;
-	}
-	.galleryHeaders {
-		margin-left: 0px;
-	}
-}
-
-@media (max-width: 524px) and (min-width: 490px) {
-	
-	.firsAndSecondPhoneImageSize,
-	.thirdPhoneImageSize {
-		width: 300px;
-	}
-	.textHeaders {
-		font-size: 1.3rem;
-	}
-	.firstPagecontentText {
-		font-size: 1rem;
-	}
-	.contentVisibilityForBigResolutio {
-		display: none;
-	}
-	.downloadButton {
-		width: 100px;
-	}
-	/* .featuresContentRows {margin-top: 90px;} */
-	.forkIconEnabledForTablet {
-		display: none;
-	}
-	.featuresIconsSize {
-		width: 40px;
-	}
-	.contentText {
-		font-size: 0.8rem;
-	}
-}
-
-@media (max-width: 489px) {
-	
+@media (max-width: 575px) {
 	.textHeaders {
 		font-size: 1.3rem;
 	}
@@ -391,7 +327,6 @@ p.descriptionPageText {
 	.contentText {
 		font-size: 0.8rem;
 	}
-
 	.secondCarouselText {
 		font-size: 0.9rem
 	}
